@@ -10,6 +10,12 @@ main {
     grid-template-columns: 50% 50%;
 }
 
+@media screen and (max-width: 620px) {
+    main {
+        grid-template-columns: 100%;
+    }
+}
+
 
 .box {
     box-shadow: .1em .1em .2em #80D4FF;
@@ -44,4 +50,8 @@ ul {
     margin: 0em 0em .3em 0em;
     list-style-type: square;
     padding-left: 1.4em;
+}
+
+section{
+    margin-top: 18px;
 }
